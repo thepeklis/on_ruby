@@ -191,6 +191,7 @@
       :email: rug-b@rubyberlin.org
   domains:
   - rug-b.de
+  - foo.bar.uk.com
   google_group: rug-b
 - !ruby/object:Usergroup
   label_id: leipzig
