@@ -7,5 +7,7 @@ class HomeController < ApplicationController
   expose(:organizers)     { User.organizers }
   expose(:locations)
 
-  def index; end
+  def index
+    render text: RecommendedAction::Base.new.to_s
+  end
 end
