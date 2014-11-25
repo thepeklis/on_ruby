@@ -23,6 +23,7 @@ describe "Locale" do
       expect(I18n.locale).to be(:de)
       get root_url(subdomain: "hamburg", locale: :en )
       expect(I18n.locale).to be(:en)
+      binding.pry
       get root_url(subdomain: "hamburg")
       expect(I18n.locale).to be(:en)
     end
