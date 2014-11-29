@@ -3,7 +3,7 @@ ruby File.read('.ruby-version').chomp
 
 gem "foreman",                "~> 0.63"
 gem "unicorn",                "~> 4.8.0"
-gem "rails",                  "~> 4.2.0.beta4"
+gem "rails",                  "~> 4.2.0.rc1"
 gem "responders",             "~> 2.0"
 gem "rails-observers",        "~> 0.1.2"
 gem "pg",                     "~> 0.17.1"
