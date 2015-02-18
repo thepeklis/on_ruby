@@ -4,3 +4,5 @@ Material:
     form: name, url, user, event
   search: name
   application: CRUD
+  actions:
+    edit: generate_preview
